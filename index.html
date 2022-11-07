@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PetShop Mary & Gabi</title>
+
+    <link rel="stylesheet" href="Css/style_pertshop.css">
+    <link rel="shortcut icon" href="img/patinha-preta.png" type="image/x-icon">
+    
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="img/logo-mari-e-gabi-petshop.svg" alt="Logo Mari e Gabi PetShop">
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li id="itemContato"><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <section class="fundo-verde" id="sobre">
+        <div class="container flex-container">
+            <div class="col">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum dolore ullam necessitatibus adipisci ea nam atque consectetur vel. Modi, beatae ratione nam consectetur voluptatem animi amet quidem repudiandae officiis id!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id assumenda dolor ex numquam ea eos libero dolorem laudantium deserunt fuga et commodi voluptatibus sequi expedita, blanditiis doloribus quisquam architecto?</p>
+            </div>
+            <div class="col">
+                <img src="img/img-sobre.jpg" alt="Imagens de Cachorrinhos" class="imgs">
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <section class="container">
+            <h2 class="texto-centralizado">Produtos</h2>
+            <p class="texto-centralizado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis quam qui autem tempora fuga suscipit quo odio, velit harum, magnam provident totam. Reprehenderit reiciendis voluptas deleniti odit dolor atque quisquam.</p>
+            <div class="flex-container">
+
+                <div class="produto">
+
+                    <figure>
+                        <img src="img/produto-1.jpg" alt="Produto Pet 1">
+                    </figure>
+                    <h3>Produto pet #1</h3>
+                    <p class="valor">R$ 150,00</p>
+                    <a href="#" class="btn-pata centrin"><img src="img/patinha-preta.png" alt="Patinha preta">Comprar</a>
+
+                </div>
+
+                
+                <div class="produto">
+
+                    <figure>
+                        <img src="img/produto-2.jpg" alt="Produto Pet 2">
+                    </figure>
+                    <h3>Produto pet #2</h3>
+                    <p class="valor">R$ 999,00</p>
+                    <a href="#" class="btn-pata centrin"><img src="img/patinha-preta.png" alt="Patinha preta">Comprar</a>
+
+                </div>
+
+                
+                <div class="produto">
+
+                    <figure>
+                        <img src="img/produto-3.jpg" alt="Produto Pet 3">
+                    </figure>
+                    <h3>Produto pet #3</h3>
+                    <p class="valor">R$ 19.999,00</p>
+                    <a href="#" class="btn-pata centrin"><img src="img/patinha-preta.png" alt="Patinha preta">Comprar</a>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <section class="fundo-verde" id="serviços">
+            <div class="container flex-container">
+                <div class="col">
+                    <h2>Serviços</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nemo voluptas suscipit delectus cupiditate ipsum sunt earum natus id labore animi, a tenetur molestiae ad saepe quibusdam quas sed! Magnam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellat sed nesciunt eius, velit voluptatem itaque nam ea obcaecati impedit nihil tempora deleniti facilis ullam doloremque a accusamus aliquam enim!</p>
+                </div>
+    
+                <div class="col">
+                    <img src="img/img-galeria-1.jpg" alt="">
+                    <img src="img/img-galeria-2.jpg" alt="">
+                    <img src="img/img-galeria-3.jpg" alt="">
+                    <img src="img/img-galeria-4.jpg" alt="">
+                </div>
+    
+            </div>
+    
+        </section>
+    </section>
+
+    <section>
+
+        <section id="contato">
+            <div class="container">
+
+                <div class="texto-centralizado">
+
+                    <h2>Contato</h2>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam aliquam dicta voluptates autem quos accusantium ipsa eum quidem iure non repudiandae reiciendis cupiditate cum iusto ullam, deserunt similique. Reiciendis, ab!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fuga assumenda repellat quia laudantium incidunt asperiores, alias nihil voluptatum voluptates accusamus placeat aliquam explicabo aspernatur earum natus culpa maiores laborum?</p>
+                    
+                </div>
+
+                <div class="flex-container">
+
+                    <div class="col">
+                        <form action="">
+
+                            <label for="name">
+                                <strong>Nome:</strong>
+                                <input type="text" name="name" id="name" placeholder="Insira o seu nome completo" required>
+                            </label>
+
+                            <label for="mail">
+                                <strong>Email:</strong>
+                                <input type="email" name="email" id="email" placeholder="exemplo@teste.com" required>
+                            </label>
+
+                            <label for="tel">
+                                <strong>Telefone:</strong>
+                                <input type="tel" name="tel" id="tel" placeholder="(xx) xxxx-xxxx" required>
+                            </label>
+
+                            <label for="ass">
+                                <strong>Assunto:</strong>
+                                <input type="text" name="assunto" id="assunto" placeholder="Insira aqui o assunto da mensagem" required>
+                            </label>
+
+                            <label for="msg">
+                                <strong>Mensagem:</strong>
+                                <textarea name="msg" id="msg" rows="9" required></textarea>
+                            </label>
+
+                            <div>
+                                <button class="btn-pata send">
+                                <img src="img/patinha-preta.png" alt="icone pata">
+                                Enviar</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.383720987246!2d-46.76813028486826!3d-23.697987372537305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1667343702677!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                        <p><strong>Endereço:</strong> Estrada da Baronesa 1695 - Jardim Ângela - <br>São Paulo</p>
+                        <p><strong>CEP:</strong>04941175</p>
+                        <P><strong>Tel:</strong>(11)5833-0851</P>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="texto-centralizado fundo-verde">
+            <h4>Site desenvolvido por Brenno Vinicius dos Santos © </h4>    
+        </div>
+    </footer>
+    
+</body>
+
+
+</html>
