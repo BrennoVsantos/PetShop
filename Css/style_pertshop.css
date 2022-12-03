@@ -196,6 +196,11 @@ p::selection{
     body{
         width: 100vw;
         overflow-x: hidden;
+        background-color: rgb(221, 221, 221);
+    }
+
+    nav{
+        height: 1vh;
     }
 
     section{
@@ -213,17 +218,22 @@ p::selection{
         width: 100vw;
     }
 
+    #iframe{
+        width: 100%;
+    }
+
     iframe{
-        margin: 1vw 1.5vh;
-        width: 90vw;
+        width: 98%;
+        margin: 1vw;
     }
 
     form{
         margin: 1vw 2vh;
+        width: 88vw;
     }
 
     .serv{
-        width: 99vw;
+        width: 100vw;
         padding-top: 3vh;
     }
 
@@ -239,7 +249,9 @@ p::selection{
         padding: 0px 30px;
     }
 
-
+    .send{
+        margin-left: 35vw;
+    }
 }
 
 
