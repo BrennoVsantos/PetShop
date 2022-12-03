@@ -215,7 +215,20 @@ p::selection{
         margin-top: 2vh;
     }
 
-    h2{text-align: center;}
+    h2{
+        text-align: center;
+    }
+
+    h2::after{
+        content: '';
+        display: block;
+        height: 5px;
+        width: 30%;
+        background-color: rgb(12, 56, 12);
+        margin: auto;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
 
     .container {
         width: 100vw;
