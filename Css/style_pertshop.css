@@ -43,6 +43,10 @@ nav li {
     margin-right: 10px;
 }
 
+nav li:hover{
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(100deg) brightness(95%) contrast(90%);
+}
+
 #itemContato{
     background-image: none;
     padding-right: 0;
@@ -129,7 +133,8 @@ form input, form textarea{
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    resize: none;   
+    resize: none;
+    background-color: #70b9430a;   
 }
 
 .send {
@@ -143,6 +148,8 @@ form input, form textarea{
 
 iframe{
     width: 100%;
+    border-radius: 10px;
+    outline: 1px solid #6dd432;
 }
 
 h2 {
@@ -196,7 +203,7 @@ p::selection{
     body{
         width: 100vw;
         overflow-x: hidden;
-        background-color: rgb(221, 221, 221);
+        background-color: rgb(243, 243, 243);
     }
 
     nav{
@@ -219,17 +226,22 @@ p::selection{
     }
 
     #iframe{
-        width: 100%;
+        margin-top: 3vh;
     }
 
     iframe{
-        width: 98%;
+        width: 95%;
         margin: 1vw;
     }
 
     form{
-        margin: 1vw 2vh;
-        width: 88vw;
+        width: 90%;
+        margin: 1vw;
+    }
+
+    .forms{
+        margin-right: 3vw;
+        margin-left: 3vw;
     }
 
     .serv{
@@ -247,6 +259,7 @@ p::selection{
 
     p{
         padding: 0px 30px;
+        text-align: justify;
     }
 
     .send{
