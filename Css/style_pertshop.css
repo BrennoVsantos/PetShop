@@ -114,12 +114,15 @@ nav a:hover {
     color: #000;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.13);
+    transition: all .2s;
 }
 
 .btn-pata:hover {
     background-color: #a7c796;
     color: #ffffff;
     transition: .5s;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.308);
 }
 
 form {
@@ -243,13 +246,15 @@ p::selection{
     }
 
     iframe{
-        width: 95%;
-        margin: 1vw;
+        width: 83.5%;
+        margin: 2.5vw;
+        margin-left: 8.6vw;
     }
 
     form{
-        width: 90%;
+        width: 80%;
         margin: 1vw;
+        margin-left: 7.85vw;
     }
 
     .forms{
@@ -276,7 +281,7 @@ p::selection{
     }
 
     .send{
-        margin-left: 35vw;
+        margin-left: 30vw;
     }
 }
 
