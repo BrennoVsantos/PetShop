@@ -94,11 +94,13 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nemo voluptas suscipit delectus cupiditate ipsum sunt earum natus id labore animi, a tenetur molestiae ad saepe quibusdam quas sed! Magnam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellat sed nesciunt eius, velit voluptatem itaque nam ea obcaecati impedit nihil tempora deleniti facilis ullam doloremque a accusamus aliquam enim!</p>
                 </div>
     
-                <div class="col">
-                    <img class=serv src="img/img-galeria-1.jpg" alt="">
-                    <img class=serv src="img/img-galeria-2.jpg" alt="">
-                    <img class=serv src="img/img-galeria-3.jpg" alt="">
-                    <img class=serv src="img/img-galeria-4.jpg" alt="">
+                <div class="carrosel col">
+                    <div class="car-container" id="img"> 
+                        <img class=serv src="img/img-galeria-1.jpg" alt="">
+                        <img class=serv src="img/img-galeria-2.jpg" alt="">
+                        <img class=serv src="img/img-galeria-3.jpg" alt="">
+                        <img class=serv src="img/img-galeria-4.jpg" alt="">
+                    </div>
                 </div>
     
             </div>
@@ -177,6 +179,24 @@
         </div>
     </footer>
     
+    <script>
+        const imgs = document.getElementById("img");
+        const img = document.querySelectorAll("#img img")
+
+        let idx = 0;
+
+        function carrosel(){
+            idx++;
+
+            if (idx > img.length - 1){
+                idx = 0;
+            }
+
+            imgs.style.transform = `translateX(${-idx * 530}px)`;
+        }
+
+        setInterval(carrosel, 1800);
+    </script>
 </body>
 
 
