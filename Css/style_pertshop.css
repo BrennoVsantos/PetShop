@@ -94,6 +94,10 @@ nav a:hover {
     transform: translateX(0);
 }
 
+section h2{
+    padding-bottom: 30px;
+}
+
 #img img{
     object-fit: contain;
     height: 400px;
